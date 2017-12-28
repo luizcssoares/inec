@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luiz.inec.SearchActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="GitHub Service"
+            android:textAlignment="center"
+            android:layout_span="3"
+            android:padding="10dip"
+            android:background="#FFFFFF"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/txtMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:textSize="15dp"
+            android:text="Busca de USUARIOS/PERFIS"
+            android:layout_marginLeft="20dp"
+            android:layout_span="3"
+            android:padding="10dip"
+            android:background="#FFFFFF"
+            android:textColor="#000"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtSearch"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                />
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@android:drawable/ic_menu_search"
+                android:text="Procura" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDeployed"
+            android:layout_marginTop="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Desenvolvido por Luiz Carlos S.Soares"
+            android:textAlignment="center"
+            android:layout_span="3"
+            android:padding="10dip"
+            android:background="#FFFFFF"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
